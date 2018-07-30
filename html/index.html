@@ -10,12 +10,17 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 mb-5 mt-5">
-					<h1>HTMLの書き方（メモ）</h1>
+				<div class="col-md-12">
+					<div class="row mt-5 mb-5">
+						<h1 class="col-md-8">HTMLの書き方（メモ）</h1>
+						<p class="text-danger col-md-2">悪い書き方</p>
+						<p class="text-success col-md-2">良い書き方</p>
+					</div>
 				</div>
 				<div class="col-xs-12 col-md-4 mb-5">
-					<p class="text-danger">The "&amp;" character</p>
-					<p class="text-success">The "&amp;amp;" character</p>
+					<h3 class="bg-dark text-white p-2 mb-3">名前文字装飾</h3>
+					<p class="text-danger">&lt;p&gt;The "&amp;" character&lt;/p&gt;</p>
+					<p class="text-success">&lt;p&gt;The "&amp;amp;" character&lt;/p&gt;</p>
 					<table class="table table-bordered">
 						<thead class="table-info">
 							<tr>
@@ -48,8 +53,9 @@
 					</table>
 				</div>
 				<div class="col-xs-12 col-md-4 mb-5">
-					<p class="text-danger">This book can read in 1 hour.</p>
-					<p class="text-success">This&#xA0;book&#xA0;can&#xA0;read&#xA0;in&#xA0;1&#xA0;hour.</p>
+					<h3 class="bg-dark text-white p-2 mb-3">数値文字参照</h3>
+					<p class="text-danger">&lt;p&gt;This book can read in 1 hour.&lt;/p&gt;</p>
+					<p class="text-success">&lt;p&gt;This book can read in 1&amp;#xA0;hour.&lt;/p&gt;</p>
 					<table class="table table-bordered">
 						<thead class="table-info">
 							<tr>
@@ -87,7 +93,15 @@
 					<p class="text-secondary">※ノーブレーク・スペース（&amp;nbsp;）</p>
 				</div>
 				<div class="col-xs-12 col-md-4 mb-5">
-					One of three columns
+					<h3 class="bg-dark text-white p-2 mb-3">コメントアウト</h3>
+					<p class="text-danger">&lt;!--This section is non-normative--&gt;</p>
+					<p class="text-success">&lt;!-- This section is non-normative --&gt;</p>
+					<h3 class="bg-dark text-white p-2 mb-3">タグの終了</h3>
+					<p class="text-danger">&lt;html&gt;<br>&#xA0;&#xA0;&lt;body&gt;</p>
+					<p class="text-success">&lt;html&gt;<br>&#xA0;&#xA0;&lt;body&gt;<br>&#xA0;&#xA0;&lt;/body&gt;<br>&lt;/html&gt;</p>
+					<h3 class="bg-dark text-white p-2 mb-3">大文字・小文字を混ぜない</h3>
+					<p class="text-danger">&lt;a HREF="#general"&gt;General&lt;/a&gt;</p>
+					<p class="text-success">&lt;a href="#general"&gt;General&lt;/a&gt;</p>
 				</div>
 				<div class="col-md-12 mb-5">
 					<p class="text-center"><small>Copyright ©️ 2018 W3C<sup>®️</sup></small></p>

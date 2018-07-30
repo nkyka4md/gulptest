@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>HTMLの書き方（メモ）</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5 mt-5">
+					<h1>HTMLの書き方（メモ）</h1>
+				</div>
+				<div class="col-xs-12 col-md-4 mb-5">
+					<p class="text-danger">The "&amp;" character</p>
+					<p class="text-success">The "&amp;amp;" character</p>
+					<table class="table table-bordered">
+						<thead class="table-info">
+							<tr>
+								<th scope="col">文字</th>
+								<th scope="col">名前文字参照</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr scope="row">
+								<td>＆</td>
+								<td>&amp;amp;</td>
+							</tr>
+							<tr scope="row">
+								<td>＜</td>
+								<td>&amp;lt;</td>
+							</tr>
+							<tr scope="row">
+								<td>＞</td>
+								<td>&amp;gt;</td>
+							</tr>
+							<tr scope="row">
+								<td>”</td>
+								<td>&amp;quot;</td>
+							</tr>
+							<tr scope="row">
+								<td>’</td>
+								<td>&amp;apos;</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-xs-12 col-md-4 mb-5">
+					<p class="text-danger">This book can read in 1 hour.</p>
+					<p class="text-success">This&#xA0;book&#xA0;can&#xA0;read&#xA0;in&#xA0;1&#xA0;hour.</p>
+					<table class="table table-bordered">
+						<thead class="table-info">
+							<tr>
+								<th scope="col">文字</th>
+								<th scope="col">数値文字参照</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr scope="row">
+								<td>enスペース</td>
+								<td>&amp;#x2002;</td>
+							</tr>
+							<tr scope="row">
+								<td>emスペース</td>
+								<td>&amp;#x2003;</td>
+							</tr>
+							<tr scope="row">
+								<td>ゼロ幅スペース</td>
+								<td>&amp;#x200B;</td>
+							</tr>
+							<tr scope="row">
+								<td>ゼロ幅非改行スペース</td>
+								<td>&amp;#xFEFF;</td>
+							</tr>
+							<tr scope="row">
+								<td>Left-to-Right</td>
+								<td>&amp;#x200E;</td>
+							</tr>
+							<tr scope="row">
+								<td>Right-to-Left</td>
+								<td>&amp;#x200E;</td>
+							</tr>
+						</tbody>
+					</table>
+					<p class="text-secondary">※ノーブレーク・スペース（&amp;nbsp;）</p>
+				</div>
+				<div class="col-xs-12 col-md-4 mb-5">
+					One of three columns
+				</div>
+				<div class="col-md-12 mb-5">
+					<p class="text-center"><small>Copyright ©️ 2018 W3C<sup>®️</sup></small></p>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
